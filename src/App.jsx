@@ -1,15 +1,14 @@
-import React from "react";
-import ProductList from "./components/ProductList";
+// src/App.jsx
+import React from 'react';
+import TaskList from './components/TaskList';
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <h1 className="text-2xl font-bold text-center mt-4 mb-6">
-        🛒 E-Commerce Product Listing
-      </h1>
-      <ProductList />
+    <div className="min-h-screen bg-gray-100 p-8">
+      <h1 className="text-3xl font-bold text-center mb-6">Simple Task Manager</h1>
+      <TaskList />
     </div>
   );
-};
+}
 
 export default App;
