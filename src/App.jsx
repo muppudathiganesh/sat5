@@ -1,13 +1,15 @@
 import React from "react";
-import StudentList from "./components/StudentList";
+import ProductList from "./components/ProductList";
 
-function App() {
+const App = () => {
   return (
-    <div className="min-h-screen bg-gray-100 p-8">
-      <h1 className="text-4xl font-bold text-center mb-8">Student Profiles</h1>
-      <StudentList />
+    <div>
+      <h1 className="text-2xl font-bold text-center mt-4 mb-6">
+        🛒 E-Commerce Product Listing
+      </h1>
+      <ProductList />
     </div>
   );
-}
+};
 
 export default App;
